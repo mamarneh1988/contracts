@@ -11,6 +11,14 @@ once the files pulled into your local machine, run the below commands from the r
 
 in order to run the UI application, follow the below steps:
 
+npm install react-bootstrap bootstrap
+
+npm install ipfs-api
+
+npm install html-react-parser --save
+
+truffle migrate --reset
+
 change the current directory into the client folder:
 
 cd client
@@ -22,8 +30,3 @@ npm run start
 The default browser will open a new tab with the local server...it will ask to confirm the transaction from metamask.
 
 
-npm install react-bootstrap bootstrap
-
-npm install ipfs-api
-
-npm install html-react-parser --save
