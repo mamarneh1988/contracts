@@ -23,5 +23,7 @@ The default browser will open a new tab with the local server...it will ask to c
 
 
 npm install react-bootstrap bootstrap
+
 npm install ipfs-api
+
 npm install html-react-parser --save
